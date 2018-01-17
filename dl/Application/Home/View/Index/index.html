@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+</head>
+<body>
+	<form method="post" id="forms" onsubmit="return false">
+		<li>
+			<label>用户名称:</label>
+			<input type="text" name="username" />
+		</li>
+		<li>
+			<label>密码:</label>
+			<input type="password" name="password" />
+		</li>
+		<li>
+			<input type="checkbox" name="ischeckbox" value="1" />存储一个小时
+		</li>
+		<input type="buttom" value="登录" />1234
+		<img src="/dl/public/images/363087.jpg" width="200" height="220" />
+	</form>
+
+<script src="/dl/Public/js/jquery.min.js"></script>	
+<script type="text/javascript">
+	$('#forms').submit(function(){
+		alert('eeeee');
+	}),
+</script>
+</body>
+
+</html>
